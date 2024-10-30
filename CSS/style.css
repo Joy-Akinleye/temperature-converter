@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/IMAGES/ashley-whitlatch-36aGnv29Ss0-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.convert{
+    align-items: center;
+    background-color: white;
+    height: 450px;
+    width: 350px;
+    margin: 30px auto;
+    margin-top: 80px;
+    padding-top: 10px;
+    border-style: none;
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+p {
+    font-weight: bold;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6em;
+    padding: 25px;
+}
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 10px;
+}
+input[type=submit] {
+    border-radius: 7px;
+    border: none;
+    background-image: linear-gradient(to right, #B993D6 0%, #8CA6DB  51%, #B993D6  100%);
+    text-align: center;
+    transition: 0.5s;
+    color: white;
+}
+input[type=submit]:hover {
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+    background-position: right center;
+    color: #fff;
+}          
+#result {
+    text-align: center;
+}      
