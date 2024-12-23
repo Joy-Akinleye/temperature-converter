@@ -1,18 +1,19 @@
-function convertTemperature ()  {
+function convertTemperature() {
     const temperatureInput = document.getElementById("number").value;
     //const FahrenheitRadio = document.getElementById("Fahrenheit");
     const CelsiusRadio = document.getElementById("Celsius");
     const result = document.getElementById("result");
 
     if (CelsiusRadio.checked) {
-        const Fahrenheit = (temperatureInput * 9/5) + 32;
+        const Fahrenheit = (temperatureInput * 9 / 5) + 32;
         result.textContent = `${temperatureInput}°C is ${Fahrenheit.toFixed(2)}°F`;
-    } 
+    }
     else {
-        const Celsius = (temperatureInput - 32) * (5/9);
+        const Celsius = (temperatureInput - 32) * (5 / 9);
         result.innerHTML = `${temperatureInput}°F is ${Celsius.toFixed(2)}°C`;
     }
 }
+
 
 
 
